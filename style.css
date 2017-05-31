@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    background-color: #83E394;
+    font-family: 'Raleway';
+    color: #002227;
+    padding: 2%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2%;
+    background-color: #01515C;
+}
+li {
+    display: inline;
+}
+li a {
+    padding: 0 2%;
+    color: #83E394;
+}
+a:hover {
+    color: #FF7B02;
+}
+h1 {
+    padding-top: 5%;
+    text-align: center;
+}
+#socialButtons {
+    text-align: center;
+}
+#socialButtons i {
+    padding: 1%;
+    margin: 1%;
+    font-size: 36px;
+}
+hr {
+    border-color: #801D15;
+}
+h4 {
+    text-align: center;
+    font-style: italic;
+}
+h3 {
+    padding: 1% 2%;
+    margin 0;
+}
+p {
+    padding: 0 2%
+}
+ol {
+    font-weight: bold;
+    padding: 0 2%
+}
