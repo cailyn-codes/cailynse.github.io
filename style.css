@@ -1,18 +1,17 @@
 body {
     width: 100%;
-    background-color: #83E394;
     font-family: 'Raleway';
     color: #002227;
     padding: 2%;
 }
 .nav.navbar-nav li a {
-    color: #83E394;
+    color: #01515C;
 }
 .nav.navbar-nav li a:hover {
     color: #FF7B02;
 }
 .navbar-default {
-    background-color: #01515C
+    background-color: #E0FCE5;
 }
 a:hover {
     color: #FF7B02;
@@ -30,7 +29,7 @@ h1 {
     font-size: 36px;
 }
 hr {
-    border-color: #801D15;
+    border-color: #88B0D2;
 }
 h4 {
     text-align: center;
