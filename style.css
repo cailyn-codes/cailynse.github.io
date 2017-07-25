@@ -5,18 +5,14 @@ body {
     color: #002227;
     padding: 2%;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 2%;
-    background-color: #01515C;
-}
-li {
-    display: inline;
-}
-li a {
-    padding: 0 2%;
+.nav.navbar-nav li a {
     color: #83E394;
+}
+.nav.navbar-nav li a:hover {
+    color: #FF7B02;
+}
+.navbar-default {
+    background-color: #01515C
 }
 a:hover {
     color: #FF7B02;

@@ -19,13 +19,23 @@
 
 <body id="mainPage">
 
-    <nav class="navbar navbar-fixed-top">
-        <ul>
-            <li><a href="#objective">Objective</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#techSkills">Technical Skills</a></li>
-            <li><a href="#perSkills">Personal Skills</a></li>
-        </ul>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#options-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="options-collapse">
+            <ul id="headings" class="nav navbar-nav">
+                <li><a href="#objective">Objective</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#oInterests">Other Interests</a></li>
+            </ul>
+        </div>
     </nav>
     <div>
         <h1>Cailyn Edwards</h1>
@@ -48,26 +58,61 @@
         <ol>Free Code Camp (2016 - Present)</ol>
         <p>I learned the basics of Front End Development using HTML5, CSS, Bootstrap, JQuery and JavaSript. The next stage will be learning Data Visualization and Back End Development. This will require me to learn React, Sass, Node.js, Express.js, Mongo and more. Throughout the course I have become familar with using Git, Codepen, various text editors and online resources like Stack Overflow and Github to futher my knowledge and solve problems.</p>
         <ol>Lambda JavaScript Mini Bootcamp (2017)</ol>
-        <p>A brief introductions to the basics of writing in JavaScript.</p>
+        <p>A brief introduction to the basics of writing in JavaScript.</p>
         <ol>Carleton University (2013-2015)</ol>
         <p>During my time at Carleton I took Intro to Computer Science for the Arts and fell in love with computer science. In the course we learned the basics of Python. The following semester I took year one Computer Science and achieved very high marks. Again the course was focused on Python and basic programming skills.</p>
         <hr>
     </div>
-    <div>
-        <h3 id="techSkills">Technical Skills</h3>
+    <div id="skills">
+        <h3>Technical Skills</h3>
         <hr>
         <ol>Languages</ol>
         <p>JavaScript, Python, Basic Ruby, HTML5</p>
         <ol>Tools</ol>
-        <p>GitHub, GitKraken, Brackets, Sublime, Stack Overflow</p>
+        <p>GitHub, GitKraken, Brackets, Sublime, Stack Overflow, CSS Bootstrap, JQuery, Inkscape, Wordpress, Slack, Hangouts</p>
         <hr>
-        <h3 id="perSkills">Personal Skills</h3>
+        <h3>Personal Skills</h3>
         <hr>
-        <p>Passionate, team player, well organized, quick learner, good at following direction, excited to explore all areas of web development, punctual, entrepreneurial spirit</p>
+        <div id="oInterests" class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li>Passionate</li>
+                        <li>Team Player</li>
+                        <li>Well Organized</li>
+                        <li>Follows Directions</li>
+                        <li>Enthusiastic</li>
+                        <li>Punctual</li>
+                        <li>Entrepreneurial Spirit</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li>Leadership</li>
+                        <li>Competent Communicator</li>
+                        <li>Goal Oriented</li>
+                        <li>Problem Solver</li>
+                        <li>Self-starter</li>
+                        <li>Expert Problem Solver</li>
+                        <li>Able to Work Independently</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div>
+        <h3>Other Interests</h3>
+        <hr>
+        <p>I am a very active person and participate in many sports including: squash, volleyball, CrossFit, mountain biking and white-water kayaking. These sports require dedication, strategy and focus.</p>
+        <p> I have been a white-water kayak instructor for 8 years and a yoga instructor for 4 years. While leading and teaching groups I have developed solid leadership skills and confidence.</p>
+        <p> I have organized, marketed and managed a series of Goat Yoga classes from the farm. The profits from these classes were donated to local animal shelters.</p>
+        <p> I am hobby artist and have spent time learning to create vector images of my artwork to be used in various web development projects. I have invested time perfecting skills in logo design, hand lettering and water colour painting.
+        </p>
     </div>
 
-
-
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
