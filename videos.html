@@ -10,6 +10,11 @@
     <nav>
         <div class="nav-container">
             <h1 class="logo">Cailyn Edwards</h1>
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
             <ul class="nav-menu">
                 <li><a href="index.html" class="nav-link">Portfolio</a></li>
                 <li><a href="resume.html" class="nav-link">Resume</a></li>
@@ -19,6 +24,34 @@
             </ul>
         </div>
     </nav>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileToggle = document.querySelector('.mobile-menu-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            mobileToggle.addEventListener('click', function() {
+                navMenu.classList.toggle('nav-menu-active');
+                mobileToggle.classList.toggle('mobile-menu-active');
+            });
+            
+            // Close menu when clicking on a link
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    navMenu.classList.remove('nav-menu-active');
+                    mobileToggle.classList.remove('mobile-menu-active');
+                });
+            });
+            
+            // Close menu when clicking outside
+            document.addEventListener('click', function(event) {
+                if (!navMenu.contains(event.target) && !mobileToggle.contains(event.target)) {
+                    navMenu.classList.remove('nav-menu-active');
+                    mobileToggle.classList.remove('mobile-menu-active');
+                }
+            });
+        });
+    </script>
 
     <main>
         <section class="videos-header">
